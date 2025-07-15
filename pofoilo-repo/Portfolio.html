@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divya Garapati</title>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+     
+    
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2 brand-color" href="index.html">
+  Portfolio
+</a>
+
+        <button
+  class="nav-menu d-md-none"
+  type="button"
+  data-bs-toggle="collapse"
+  data-bs-target="#navbarNav"
+  aria-label="Toggle navigation menu"
+>
+  <i class="bi bi-menu-button-fill"></i>
+</button>
+<div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+  <ul class="navbar-nav gap-4 nav-font-size">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Service.html">Service</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="About.html">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Portfolio.html">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Contact.html">Contact</a>
+    </li>
+  </ul>
+</div>
+
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+     <!-- portfolio section starts here -->
+ 
+  <!-- Portfolio Filter Navbar -->
+<nav class="project-navbar py-2 shadow-sm sticky-top bg-white">
+  <div class="container d-flex flex-wrap justify-content-center gap-3">
+    <button class="filter-nav-item active" data-scroll="all">All</button>
+    <button class="filter-nav-item" data-scroll="cafe">Cafe</button>
+    <button class="filter-nav-item" data-scroll="shop">Shop</button>
+    <button class="filter-nav-item" data-scroll="bank">Bank</button>
+    <button class="filter-nav-item" data-scroll="quiz">Quiz</button>
+    <button class="filter-nav-item" data-scroll="adobe">Adobe</button>
+    <button class="filter-nav-item" data-scroll="photo">Photo</button>
+    <button class="filter-nav-item" data-scroll="figma">Figma</button>
+    <button class="filter-nav-item" data-scroll="wordpress">WordPress</button>
+  </div>
+</nav>
+<section class="portfolio-split py-5" id="portfolio"></section>
+<!-- Section: Cafe -->
+<section id="cafe" class="project-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3>VA Cafe</h3>
+        <p><strong>Tech Stack:</strong> HTML, CSS</p>
+        <p>A modern cafe website layout with elegant design and responsive structure.</p>
+        <a href="#" class="btn btn-view">Live Demo</a>
+        <a href="#" class="btn btn-code">Source Code</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/portfolio manni.PNG" class="img-fluid rounded shadow" alt="VA Cafe" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Shop -->
+<section id="shop" class="project-section py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <h3>Shopping Website</h3>
+        <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript</p>
+        <p>Responsive shopping website with interactive product listings.</p>
+        <a href="#" class="btn btn-view">Live Demo</a>
+        <a href="#" class="btn btn-code">Source Code</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/jus shop.PNG" class="img-fluid rounded shadow" alt="Shop" />
+      </div>
+    <section class="portfolio-split py-5" id="portfolio"> </div>
+  </div>
+</section>
+
+<!-- Section: Bank -->
+<section id="bank" class="project-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3>Bank System</h3>
+        <p><strong>Tech Stack:</strong> Bootstrap, JavaScript</p>
+        <p>Banking interface to simulate deposits, withdrawals, and balance tracking.</p>
+        <a href="#" class="btn btn-view">Live Demo</a>
+        <a href="#" class="btn btn-code">Source Code</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/bank.PNG" class="img-fluid rounded shadow" alt="Bank App" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Quiz -->
+<section id="quiz" class="project-section py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <h3>Quiz App</h3>
+        <p><strong>Tech Stack:</strong> ReactJS, ANTD</p>
+        <p>Interactive quiz with scoring, timer, and modern UI components.</p>
+        <a href="#" class="btn btn-view">Live Demo</a>
+        <a href="#" class="btn btn-code">Source Code</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/quiz.PNG" class="img-fluid rounded shadow" alt="Quiz App" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Adobe -->
+<section id="adobe" class="project-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h3>Adobe Illustrator Projects</h3>
+        <p><strong>Tool:</strong> Adobe Illustrator</p>
+        <p>Logo and vector designs for digital branding and UI.</p>
+        <a href="#" class="btn btn-view">Live Demo</a>
+        <a href="#" class="btn btn-code">Source Code</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/illustrator.jpg" class="img-fluid rounded shadow" alt="Adobe Illustrator" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Photoshop -->
+<section id="photo" class="project-section py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <h3>Photoshop Designs</h3>
+        <p><strong>Tool:</strong> Adobe Photoshop</p>
+        <p>Creative UI mockups, banners, and marketing visuals.</p>
+        <a href="#" class="btn btn-view">Live Demo</a>
+        <a href="#" class="btn btn-code">Source Code</a>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/photoshop.jpg" class="img-fluid rounded shadow" alt="Photoshop Work" />
+      </div>
+    </div>
+  </div>
+  </section>
+  <!-- Section:Figma -->
+ <section class="project-section py-5" id="figma">
+  <div class="container">
+    <div class="row align-items-center g-4">
+      <!-- Project Image -->
+      <div class="col-md-6">
+        <img src="images/figma-project.jpg" alt="Figma Design" class="img-fluid rounded shadow" />
+      </div>
+
+      <!-- Project Content -->
+      <div class="col-md-6">
+        <h4 class="fw-bold">Mobile App UI Design – Figma</h4>
+        <p class="text-muted">
+          Designed a modern and user-friendly mobile app interface using Figma & FigJam. Included features like onboarding, login, dashboard, and settings screens.
+        </p>
+        <div class="mb-3">
+          <span class="badge bg-purple">Figma</span>
+          <span class="badge bg-secondary">FigJam</span>
+        </div>
+        <a href="#" class="btn btn-view">Live Demo</a>
+        <a href="#" class="btn btn-code">Source Code</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="project-section py-5" id="wordpress">
+  <div class="container">
+    <div class="row align-items-center g-4 flex-md-row-reverse">
+      <div class="col-md-6">
+        <img src="images/wordpress-project.jpg" alt="WordPress Website" class="img-fluid rounded shadow" />
+      </div>
+
+      <!-- Project Content -->
+      <div class="col-md-6">
+        <h4 class="fw-bold">Business Website – WordPress</h4>
+        <p class="text-muted">
+          Built a responsive and SEO-optimized business website using WordPress and Elementor. Implemented custom themes, service pages, and contact forms.
+        </p>
+        <div class="mb-3">
+          <span class="badge bg-purple">WordPress</span>
+          <span class="badge bg-secondary">Elementor</span>
+        </div>
+        <a href="#" class="btn btn-view">Live Demo</a>
+        <a href="#" class="btn btn-code">Source Code</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</section>
+
+    <!-- portfolio section ends here -->
+     <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+  type="button"
+  class="btn btn-floating btn-lg rounded-pill"
+  id="btn-back-to-top"
+  aria-label="Back to top"
+>
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="index.html">Home</a>
+        <div class="vr"></div>
+        <a href="About.html">About</a>
+        <div class="vr"></div>
+        <a href="Service.html">Service</a>
+        <div class="vr"></div>
+        <a href="Portfolio.html">Portfolio</a>
+        
+        <div class="vr"></div>
+        <a href="Contact.html">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button 
+  class="rounded-pill dribble" 
+  aria-label="Open Dribbble link"
+  onclick="window.open('https://dribbble.com/yourusername', '_blank')"
+>
+  <i class="bi bi-dribbble"></i>
+</button>
+
+        <button
+  class="rounded-pill whatsapp"
+  onclick="window.open('https://wa.me/9193000000000', '_blank')"
+  aria-label="Open WhatsApp chat"
+>
+  <i class="bi bi-whatsapp"></i>
+</button>
+
+
+      </div>
+
+    </footer>
+    <!-- footer section ends here -->
+
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+  <script>
+  const scrollOffset = 80; // height of sticky navbar in pixels
+
+  document.querySelectorAll('.filter-nav-item').forEach(button => {
+    button.addEventListener('click', function () {
+      const sectionId = this.getAttribute('data-scroll');
+
+      if (sectionId === 'all') {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        const section = document.getElementById(sectionId);
+        if (section) {
+          const y = section.getBoundingClientRect().top + window.pageYOffset - scrollOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }
+
+      // Active button styling
+      document.querySelectorAll('.filter-nav-item').forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+    });
+  });
+</script>
+
+  </body>
+</html>
